@@ -15,11 +15,13 @@ namespace Example.Scene.Gameplay.Character
 
         public float Hunger {get; private set;} = 1;
 
-        public int Money {get; private set;} = 0;
+        public float Money {get; private set;} = 0;
 
         public Vector3 Position {get; private set;} = new Vector3(0,1,0);
 
         public bool IsWalking {get; private set;} = false;
+
+        public Vector3 Destination {get; private set;} = Vector3.zero;
 
         public void SetEnergy(float energy)
         {
@@ -39,7 +41,7 @@ namespace Example.Scene.Gameplay.Character
             SetDataAsDirty();
         }
 
-        public void SetMoney(int money)
+        public void SetMoney(float money)
         {
             Money = money;
             SetDataAsDirty();
@@ -56,6 +58,10 @@ namespace Example.Scene.Gameplay.Character
             IsWalking = isWalking;
             SetDataAsDirty();
         }
-    
+
+        public void SetDestination(Vector3 destination){
+            Destination = destination;
+            SetDataAsDirty();
+        }
     }
 }

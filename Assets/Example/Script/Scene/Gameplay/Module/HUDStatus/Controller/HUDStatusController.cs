@@ -12,7 +12,7 @@ namespace Example.Scene.Gameplay.HUDStatus
         public override void SetView(HUDStatusView view)
         {
             base.SetView(view);
-            view.SetCallbacks(OnClickSleep, OnClickBathroom, OnClickEat, OnClickStream);
+            view.SetCallbacks(OnClickSleep, OnClickBathroom, OnClickEat, OnClickStream, OnClickShop);
         }
 
         public void OnUpdateEnergy(UpdateEnergyMessage message){
@@ -27,11 +27,25 @@ namespace Example.Scene.Gameplay.HUDStatus
             _model.SetHunger(message.Hunger);
         }
 
-        private void OnClickSleep(){
-            Debug.Log("Testing");
+        public void OnUpdateMoney(UpdateMoneyMessage message){
+            _model.SetMoney(Mathf.FloorToInt(message.Money));
         }
-        private void OnClickBathroom(){}
-        private void OnClickEat(){}
-        private void OnClickStream(){}
+
+        private void OnClickSleep(){
+            Publish<SleepClickedMessage>(new SleepClickedMessage());
+        }
+        private void OnClickBathroom(){
+            Publish<BathroomClickedMessage>(new BathroomClickedMessage());
+        }
+        private void OnClickEat(){
+            Publish<EatClickedMessage>(new EatClickedMessage());
+        }
+        private void OnClickStream(){
+            Publish<StreamClickedMessage>(new StreamClickedMessage());
+        }
+
+        private void OnClickShop(){
+            Publish<ShowShopMessage>(new ShowShopMessage());
+        }
     }
 }

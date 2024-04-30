@@ -13,12 +13,14 @@ namespace Example.Scene.Gameplay.HUDStatus
             Subscribe<UpdateEnergyMessage>(_hud.OnUpdateEnergy);
             Subscribe<UpdateBladderMessage>(_hud.OnUpdateBladder);
             Subscribe<UpdateHungerMessage>(_hud.OnUpdateHunger);
+            Subscribe<UpdateMoneyMessage>(_hud.OnUpdateMoney);
         }
 
         protected override void Disconnect(){
             Unsubscribe<UpdateEnergyMessage>(_hud.OnUpdateEnergy);
             Unsubscribe<UpdateBladderMessage>(_hud.OnUpdateBladder);
             Unsubscribe<UpdateHungerMessage>(_hud.OnUpdateHunger);
+            Unsubscribe<UpdateMoneyMessage>(_hud.OnUpdateMoney);
         }
     }
 }
