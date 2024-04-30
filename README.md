@@ -4,3 +4,4 @@ Keep the streamer alive by tending to his needs. Watch his energy, bladder, and 
 # TODOs
 - Finish the shop
 - Implement persistent data and robust saving system
+- Implement pause screen
