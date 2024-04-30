@@ -11,10 +11,10 @@ namespace Example.Scene.Home
         [SerializeField]
         private Button _button;
 
-        public void SetButtonCallback(UnityAction callback)
+        public void SetButtonCallback(UnityAction onClickPlayButton)
         {
             _button.onClick.RemoveAllListeners();
-            _button.onClick.AddListener(callback);
+            _button.onClick.AddListener(onClickPlayButton);
         }
     }
 }

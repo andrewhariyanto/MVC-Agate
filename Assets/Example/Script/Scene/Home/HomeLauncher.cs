@@ -32,7 +32,7 @@ namespace Example.Scene.Home
 
         private void GoToGameplay()
         {
-            SceneLoader.Instance.LoadScene("Idle");
+            SceneLoader.Instance.LoadScene("Gameplay");
         }
     }
 }
