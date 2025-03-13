@@ -85,48 +85,6 @@
     <Compile Include="Assets\Example\Script\Scene\Gameplay\Message\GameOverMessage.cs" />
     <Compile Include="Assets\Example\Script\Scene\Gameplay\Module\Character\Model\ICharacterModel.cs" />
     <Compile Include="Assets\Example\Script\Scene\Gameplay\Message\StreamClickedMessage.cs" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai\package.json" />
-    <None Include="Library\PackageCache\com.unity.ugui@603b5c2e4e5a\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics\package.json" />
-    <None Include="Library\PackageCache\com.unity.ugui@603b5c2e4e5a\PackageConversionData.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore\package.json" />
-    <None Include="Library\PackageCache\com.unity.ugui@603b5c2e4e5a\Editor Resources\Shaders\TMP_SDF_SSD.cginc" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr\package.json" />
-    <None Include="Library\PackageCache\com.unity.ugui@603b5c2e4e5a\Editor Resources\Shaders\TMP_Properties.cginc" />
-    <None Include="Library\PackageCache\com.unity.ugui@603b5c2e4e5a\Editor Resources\Shaders\TMP_SDF Internal Editor.shader" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain\package.json" />
-    <None Include="Library\PackageCache\com.unity.2d.sprite@072d7bd355e5\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni\package.json" />
-    <None Include="Library\PackageCache\com.unity.ugui@603b5c2e4e5a\PackageConversionData_Assets.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements\package.json" />
-    <None Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui\package.json" />
-    <None Include="Library\PackageCache\com.unity.multiplayer.center@f502d8ac613f\package.json" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -853,6 +811,9 @@
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Collections.Editor">
       <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
     </Reference>
@@ -861,6 +822,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Common">
+      <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
       <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
@@ -877,11 +841,17 @@
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
       <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
       <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
@@ -889,14 +859,23 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Editor">
+      <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
       <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>C:\Users\andre\Projects\MVC-Agate\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
@@ -918,34 +897,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{7d09536a-aa61-5e62-f885-35d345e67da6}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Multiplayer.Center.Common.csproj">
-      <Project>{4399141a-a650-c388-bbdc-2f5c59da453e}</Project>
-      <Name>Unity.Multiplayer.Center.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{5a92378a-620b-7564-a117-7f7013f62d21}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{076c4904-8483-7dfe-7fde-5cd7fee11986}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Multiplayer.Center.Editor.csproj">
-      <Project>{8fb4f257-802a-f5a9-eba1-8df2b8616f78}</Project>
-      <Name>Unity.Multiplayer.Center.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{56358eb0-3eed-8fa1-6a79-ff987baf5b27}</Project>
-      <Name>Unity.2D.Sprite.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{b5eb300b-fd27-a4ff-87e0-d447de78f0c4}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
