@@ -18,6 +18,10 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
+      - name: Install Unity
+        uses: game-ci/unity-setup@v2
+        with:
+          unityVersion: 6000.0.37f1
       - name: Set UNITY_DIR environment variable
         run: echo "UNITY_DIR=${{ github.workspace }}" >> $GITHUB_ENV
       - name: Sync Unity Solution for Rider
