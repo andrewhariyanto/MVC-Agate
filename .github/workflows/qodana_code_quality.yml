@@ -18,6 +18,14 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
+      - name: Install Unity
+        uses: game-ci/unity-builder@v3
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          unityVersion: 6000.0.37f1
       - name: Set UNITY_DIR environment variable
         run: echo "UNITY_DIR=${{ github.workspace }}" >> $GITHUB_ENV
       - name: Sync Unity Solution for Rider
@@ -29,3 +37,6 @@ jobs:
           args: --ide,QDNET
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
+      - name: Return license
+        uses: game-ci/unity-return-license@v2
+        if: always()
