@@ -24,8 +24,6 @@ jobs:
           UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-        with:
-          unityVersion: 6000.0.37f1
       - name: Set UNITY_DIR environment variable
         run: echo "UNITY_DIR=${{ github.workspace }}" >> $GITHUB_ENV
       - name: Sync Unity Solution for Rider
