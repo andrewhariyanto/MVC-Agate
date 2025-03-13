@@ -18,7 +18,14 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
+      - name: Set UNITY_DIR environment variable
+        run: echo "UNITY_DIR=${{ github.workspace }}" >> $GITHUB_ENV
+      - name: Sync Unity Solution for Rider
+        run: |
+          chmod +x prepare_qodana.sh
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@v2024.3
+        with:
+          args: --ide,QDNET
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
