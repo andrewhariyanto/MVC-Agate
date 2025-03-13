@@ -33,12 +33,6 @@ jobs:
           unity-version: ${{ matrix.unity-versions }} # overrides version in version-file
           build-targets: ${{ matrix.build-targets }}
           modules: ${{ matrix.modules }}
-      - name: List of Paths
-        run: |
-        echo "UNITY_HUB_PATH: '${{ env.UNITY_HUB_PATH }}'"
-        echo "UNITY_EDITORS: '${{ env.UNITY_EDITORS }}'"
-        echo "UNITY_EDITOR_PATH: '${{ env.UNITY_EDITOR_PATH }}'"
-        echo "UNITY_PROJECT_PATH: '${{ env.UNITY_PROJECT_PATH }}'"
       - name: Sync Unity Solution for Rider
         run: |
           chmod +x prepare_qodana.sh
