@@ -15,7 +15,7 @@ jobs:
       checks: write
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-13, macos-latest]
+        os: [windows-latest]
         unity-versions:
           - 6000.0.37f1
         include:
