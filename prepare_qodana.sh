@@ -8,12 +8,7 @@ if [ -z "$UNITY_PROJECT_PATH" ]; then
   exit 1
 fi
 
-# Ensure UNITY_DIR  and EDITOR_PATH is set
-if [ -z "$UNITY_DIR" ]; then
-  echo "Error: UNITY_DIR is not set. Please specify your Unity project folder."
-  exit 1
-fi
-
+# Ensure EDITOR_PATH is set
 if [ -z "$UNITY_EDITOR_PATH" ]; then
   echo "Error: UNITY_EDITOR_PATH is not set. Please specify the Unity executable path."
   exit 1
