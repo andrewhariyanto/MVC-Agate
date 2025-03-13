@@ -30,4 +30,4 @@ bootstrap: sh ./prepare_qodana.sh
 
 #Install IDE plugins before Qodana execution (Applied in CI/CD pipeline)
 plugins:
-  - id: org.intellij.qodana #(plugin id can be found at https://plugins.jetbrains.com)
+  - id: com.intellij.resharper.unity #(plugin id can be found at https://plugins.jetbrains.com)
