@@ -18,17 +18,8 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
-          lfs: true
-      - name: Install Unity
-        uses: game-ci/unity-builder@v4
-        env:
-          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-        with:
-          targetPlatform: StandaloneWindows64
-      - name: Set UNITY_DIR environment variable
-        run: echo "UNITY_DIR=${{ github.workspace }}" >> $GITHUB_ENV
+      - name: Buildalon Unity Setup
+        uses: buildalon/unity-setup@v1.0.16
       - name: Sync Unity Solution for Rider
         run: |
           chmod +x prepare_qodana.sh
@@ -38,6 +29,3 @@ jobs:
           args: --ide,QDNET
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
-      - name: Return license
-        uses: game-ci/unity-return-license@v2
-        if: always()
