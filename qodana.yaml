@@ -22,6 +22,8 @@ profile:
 #  - name: <SomeDisabledInspectionId>
 #    paths:
 #      - <path/where/not/run/inspection>
+dotnet:
+  solution: MVC-Agate.sln
 
 #Execute shell command before Qodana execution (Applied in CI/CD pipeline)
 bootstrap: sh ./prepare_qodana.sh
