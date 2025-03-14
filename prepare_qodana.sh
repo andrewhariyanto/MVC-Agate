@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+<<check
 curl -fsSL https://dot.net/v1/dotnet-install.sh | bash -s -- -i /usr/share/dotnet
 
 # Ensure UNITY_PROJECT_PATH is set
@@ -32,3 +33,4 @@ ${UNITY_EXECUTABLE:-xvfb-run --auto-servernum --server-args='-screen 0 640x480x2
   -batchmode -quit -projectPath $UNITY_PROJECT_PATH -executeMethod Packages.Rider.Editor.RiderScriptEditor.SyncSolution
 
 echo "Unity Rider solution sync completed."
+check

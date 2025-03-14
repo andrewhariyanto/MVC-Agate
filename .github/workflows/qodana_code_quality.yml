@@ -27,12 +27,12 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
-      - name: Buildalon Unity Setup
-        uses: buildalon/unity-setup@v1
-        with:
-          unity-version: ${{ matrix.unity-versions }} # overrides version in version-file
-          build-targets: ${{ matrix.build-targets }}
-          modules: ${{ matrix.modules }}
+      #- name: Buildalon Unity Setup
+       # uses: buildalon/unity-setup@v1
+      #  with:
+       #   unity-version: ${{ matrix.unity-versions }} # overrides version in version-file
+       #   build-targets: ${{ matrix.build-targets }}
+        #  modules: ${{ matrix.modules }}
       - name: Sync Unity Solution for Rider
         run: |
           chmod +x prepare_qodana.sh
